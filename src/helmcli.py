@@ -43,10 +43,10 @@ class Actions(object):
             subprocess.call(["echo Artifactory helm chart installed successfully!"], shell=True)
             subprocess.call(["echo ----------------------------------------------"], shell=True)
             subprocess.call(["echo Please wait few minutes for the deployment to be done!"], shell=True)
-            subprocess.call(["echo You can watch the pods status with \'kubectl get pods -n artifactory\' "
+            subprocess.call(["echo You can watch the pods status with \"kubectl get pods -n artifactory\" "
                              "command"], shell=True)
-            subprocess.call(["echo Once all the pod running you can lunch to Artifactory with \' minikube -n "
-                             "artifactory service artifactory-artifactory --url\' command"], shell=True)
+            subprocess.call(["echo Once all the pod running you can launch to Artifactory with \" minikube -n "
+                             "artifactory service artifactory-artifactory --url\" command"], shell=True)
             subprocess.call(["echo ----------------------------------------------"], shell=True)
 
         return

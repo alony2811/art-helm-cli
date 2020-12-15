@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: helmcli
+Version: 0.1.0
+Summary: CLI deploying artifactory latest chart with override params
+Home-page: UNKNOWN
+Author: AlonYaron
+Author-email: alony@jfrog.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

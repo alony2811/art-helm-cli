@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/helmcli.egg-info/PKG-INFO
+src/helmcli.egg-info/SOURCES.txt
+src/helmcli.egg-info/dependency_links.txt
+src/helmcli.egg-info/entry_points.txt
+src/helmcli.egg-info/top_level.txt

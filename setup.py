@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open('README.md', encoding='UTF-8') as f:
+with open('README.md') as f:
     readme = f.read()
 
 setup(
@@ -15,7 +15,6 @@ setup(
     package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
-            'helmcli='
             'helmcli=helmcli:main',
         ],
     },
